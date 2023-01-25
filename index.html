@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioRosales</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <script src="https://kit.fontawesome.com/18e5bb255b.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
   <div class="wrapper">
@@ -16,19 +17,29 @@
         <div class="brand">
           <h2>C<span>R</span></h2>
         </div>
-        <ul class="menu">
+        <ul class="menu" id="menu">
           <li><a href="#Home"  class="active"> Home</a></li>
           <li><a href="#About_Me">About Me</a></li>
           <li><a href="#My_Portfolio">Portfolio</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
+        <div class="toggle-menu">
+          <i class="fas fa-bars" id="toggle_open"></i>
+          <i class="fas fa-close" id="toggle_close"></i>
+        </div>
       </nav>
     </header>
 
     <main class="main">
       <div class="info-content">
+        <span class="info-content__subtitle">Frontend Developer</span>
         <h1> Yo soy <span> Cecilia</span> Rosales</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat inventore vel corporis, quos optio dolor impedit similique dignissimos eum animi ducimus non voluptates pariatur necessitatibus ipsum porro fugit eos quo?</p>
+        <div class="sotial-networks">
+          <a  target="_blank" href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram" ></i></a>
+          <a  target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin" ></i></a>
+    
+        </div>
+        <p class="info-content__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat inventore vel corporis, quos optio dolor impedit similique dignissimos eum animi ducimus non voluptates pariatur necessitatibus ipsum porro fugit eos quo?</p>
         <a download href="https://drive.google.com/drive/u/1/folders/1n9dHRDdWaCsH1_ab9eqX0mjvhwjVfIUr">
           <button class="download-cv" download href="">  Download CV</button>
     
@@ -160,8 +171,7 @@
       <h5>Frontend Developer</h5>
     </div>
     <div class="sotial-networks">
-      <a  target="_blank" href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram" ></i></a>
-      <a  target="_blank" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin" ></i></a>
-     
+      <a  target="_blank" href="https://www.instagram.com/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+      <a  target="_blank" href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
     </div>
   </footer>
