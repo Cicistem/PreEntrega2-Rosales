@@ -467,19 +467,9 @@ h1 {
       margin: 2em;
     }
 
-    .toggle-menu {
-      display: block;
-    }
 
-    .fa-bars {
-      font-size: 1.5em;
-      margin-top: -.2em;
-    }
 
-    .toggle-menu.fa-close {
-      font-size: 1.7em;
-      display: none;
-    }
+
 
     .main,
     .about {
